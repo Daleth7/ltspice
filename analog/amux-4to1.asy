@@ -1,0 +1,50 @@
+Version 4
+SymbolType CELL
+LINE Normal 32 -32 16 -32
+LINE Normal -16 -32 -32 -32
+LINE Normal 8 -56 -16 -32
+LINE Normal 32 0 16 0
+LINE Normal -16 0 -32 0
+LINE Normal 32 64 32 -32
+LINE Normal 32 16 48 16
+LINE Normal 0 80 0 -32 2
+LINE Normal 8 -24 -16 0
+LINE Normal 32 32 16 32
+LINE Normal -16 32 -32 32
+LINE Normal 8 8 -16 32
+LINE Normal 32 64 16 64
+LINE Normal -16 64 -32 64
+LINE Normal 8 40 -16 64
+CIRCLE Normal -11 -37 -21 -27
+CIRCLE Normal 21 -37 11 -27
+CIRCLE Normal -11 -5 -21 5
+CIRCLE Normal 21 -5 11 5
+CIRCLE Normal -11 27 -21 37
+CIRCLE Normal 21 27 11 37
+CIRCLE Normal -11 59 -21 69
+CIRCLE Normal 21 59 11 69
+TEXT -32 -32 Bottom 0 0
+TEXT -32 0 Bottom 0 1
+TEXT -32 32 Bottom 0 2
+TEXT -32 64 Bottom 0 3
+TEXT 4 80 Left 0 [1:0]
+TEXT 21 -37 Left 0 AMUX
+WINDOW 0 21 -45 Left 0
+PIN 0 80 NONE 8
+PINATTR PinName c[1:0]
+PINATTR SpiceOrder 1
+PIN 48 16 NONE 8
+PINATTR PinName O
+PINATTR SpiceOrder 2
+PIN -32 -32 NONE 8
+PINATTR PinName X[0]
+PINATTR SpiceOrder 3
+PIN -32 0 NONE 8
+PINATTR PinName X[1]
+PINATTR SpiceOrder 4
+PIN -32 32 NONE 8
+PINATTR PinName X[2]
+PINATTR SpiceOrder 5
+PIN -32 64 NONE 8
+PINATTR PinName X[3]
+PINATTR SpiceOrder 6

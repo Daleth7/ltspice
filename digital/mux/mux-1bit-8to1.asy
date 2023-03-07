@@ -1,0 +1,63 @@
+Version 4
+SymbolType BLOCK
+LINE Normal 24 -16 32 -16
+LINE Normal -24 -16 -32 -16
+LINE Normal -24 -112 -32 -112
+LINE Normal 24 16 24 -16
+LINE Normal -23 12 0 0
+LINE Normal 0 0 24 0
+LINE Normal 0 128 0 -1 1
+LINE Normal 24 16 26 16
+LINE Normal -24 -48 -32 -48
+LINE Normal -24 -80 -32 -80
+LINE Normal -24 112 -32 112
+LINE Normal -24 16 -32 16
+LINE Normal -24 80 -32 80
+LINE Normal -24 48 -32 48
+RECTANGLE Normal -32 -128 32 128
+CIRCLE Normal 32 19 26 13
+CIRCLE Normal 3 3 -3 -3
+TEXT 0 -128 Top 0 MUX
+TEXT -31 -107 Left 0 0
+TEXT -31 -75 Left 0 1
+TEXT -31 -43 Left 0 2
+TEXT -31 -11 Left 0 3
+TEXT 2 121 Left 0 [2:0]
+TEXT -31 21 Left 0 4
+TEXT -31 53 Left 0 5
+TEXT -31 85 Left 0 6
+TEXT -31 117 Left 0 7
+WINDOW 0 0 -128 Bottom 1
+PIN -32 -112 NONE 8
+PINATTR PinName a
+PINATTR SpiceOrder 1
+PIN -32 -16 NONE 8
+PINATTR PinName d
+PINATTR SpiceOrder 2
+PIN 0 128 NONE 8
+PINATTR PinName x[2:0]
+PINATTR SpiceOrder 3
+PIN 32 16 NONE 8
+PINATTR PinName _Q
+PINATTR SpiceOrder 4
+PIN 32 -16 NONE 8
+PINATTR PinName Q
+PINATTR SpiceOrder 5
+PIN -32 -48 NONE 8
+PINATTR PinName c
+PINATTR SpiceOrder 6
+PIN -32 -80 NONE 8
+PINATTR PinName b
+PINATTR SpiceOrder 7
+PIN -32 16 NONE 8
+PINATTR PinName e
+PINATTR SpiceOrder 8
+PIN -32 112 NONE 8
+PINATTR PinName h
+PINATTR SpiceOrder 9
+PIN -32 80 NONE 8
+PINATTR PinName g
+PINATTR SpiceOrder 10
+PIN -32 48 NONE 8
+PINATTR PinName f
+PINATTR SpiceOrder 11

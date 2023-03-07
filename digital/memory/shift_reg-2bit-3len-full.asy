@@ -1,0 +1,24 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal -96 -48 96 48
+TEXT -29 18 Center 0 2-bit 3-len
+TEXT -28 32 Center 0 shift
+WINDOW 0 0 -48 Bottom 1
+PIN -96 0 LEFT 8
+PINATTR PinName clk
+PINATTR SpiceOrder 1
+PIN -96 32 LEFT 8
+PINATTR PinName clr
+PINATTR SpiceOrder 2
+PIN -96 -32 LEFT 8
+PINATTR PinName in[1:0]
+PINATTR SpiceOrder 3
+PIN 96 -32 RIGHT 8
+PINATTR PinName Q0[1:0]
+PINATTR SpiceOrder 4
+PIN 96 0 RIGHT 8
+PINATTR PinName Q1[1:0]
+PINATTR SpiceOrder 5
+PIN 96 32 RIGHT 8
+PINATTR PinName Q2[1:0]
+PINATTR SpiceOrder 6
