@@ -6,7 +6,7 @@ LINE Normal 2 -7 -2 -7
 LINE Normal 2 9 2 -7
 LINE Normal 5 9 2 9
 RECTANGLE Normal -32 -16 32 16
-WINDOW 0 0 -16 Bottom 0
+WINDOW 0 0 -16 Bottom 1
 PIN 32 0 RIGHT 8
 PINATTR PinName O
 PINATTR SpiceOrder 1
