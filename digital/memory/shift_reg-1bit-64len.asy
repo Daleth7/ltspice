@@ -1,0 +1,24 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal -80 -64 80 64
+TEXT 48 37 Center 0 1-bit 64-len
+TEXT 49 51 Center 0 shift
+WINDOW 0 0 -64 Bottom 1
+PIN -80 48 LEFT 8
+PINATTR PinName clk
+PINATTR SpiceOrder 1
+PIN -80 -48 LEFT 8
+PINATTR PinName pre[63:0]
+PINATTR SpiceOrder 2
+PIN 80 16 RIGHT 8
+PINATTR PinName O[63:0]
+PINATTR SpiceOrder 3
+PIN -80 -16 LEFT 8
+PINATTR PinName set
+PINATTR SpiceOrder 4
+PIN -80 16 LEFT 8
+PINATTR PinName I
+PINATTR SpiceOrder 5
+PIN 80 64 NONE 8
+PINATTR PinName clko
+PINATTR SpiceOrder 6
