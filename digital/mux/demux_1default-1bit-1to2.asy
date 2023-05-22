@@ -1,0 +1,26 @@
+Version 4
+SymbolType BLOCK
+LINE Normal 24 -16 32 -16
+LINE Normal 0 0 -32 0
+LINE Normal 24 12 0 0
+LINE Normal 0 32 0 0 1
+LINE Normal 24 16 32 16
+RECTANGLE Normal -32 -32 32 32
+CIRCLE Normal 3 3 -3 -3
+TEXT 0 -32 Top 0 DEMUX
+TEXT 31 -11 Right 0 0
+TEXT 31 21 Right 0 1
+TEXT 0 -16 Center 0 Def. 1
+WINDOW 0 0 -32 Bottom 1
+PIN -32 0 NONE 8
+PINATTR PinName in
+PINATTR SpiceOrder 1
+PIN 0 32 NONE 8
+PINATTR PinName x
+PINATTR SpiceOrder 2
+PIN 32 16 NONE 8
+PINATTR PinName Q[1]
+PINATTR SpiceOrder 3
+PIN 32 -16 NONE 8
+PINATTR PinName Q[0]
+PINATTR SpiceOrder 4
